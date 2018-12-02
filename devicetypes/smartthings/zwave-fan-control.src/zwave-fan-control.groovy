@@ -355,7 +355,7 @@ def lowSpeed() {
 }
 
 def medSpeed() {
-	def value = (settings.medThreshold != null && settings.medThreshold != "") ? settings.medThreshold.toInteger() : 67
+	def value = (settings.medThreshold != null && settings.medThreshold != "") ? settings.medThreshold.toInteger() : 60
 	setLevel(value)
 }
 
